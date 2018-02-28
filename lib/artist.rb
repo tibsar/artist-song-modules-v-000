@@ -13,10 +13,6 @@ class Artist
     @name.downcase.gsub(" ", "-")
   end
 
-  def self.reset_all
-    @@all = []
-  end
-
   def self.all
     @@all
   end
