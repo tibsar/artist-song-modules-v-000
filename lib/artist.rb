@@ -4,7 +4,7 @@ class Artist
   @@all = []
 
   def initialize
-    @@all << self 
+    @@all << self
   end
 
   def to_param
@@ -15,5 +15,6 @@ class Artist
   end
 
   def self.all
+    @@all 
   end
 end
