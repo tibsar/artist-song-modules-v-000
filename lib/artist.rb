@@ -4,8 +4,9 @@ class Artist
   def initialize
   end
 
-  def to_param 
-  end 
+  def to_param
+    @name
+  end
 
   def self.reset_all
   end
