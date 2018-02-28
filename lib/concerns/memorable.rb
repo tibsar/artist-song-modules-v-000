@@ -1,6 +1,8 @@
+require 'pry'
+
 module Memorable
   def reset_all
-    binding.pry 
+    binding.pry
     all = []
   end
 
