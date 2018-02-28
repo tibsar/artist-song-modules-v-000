@@ -1,5 +1,8 @@
 class Artist
 
-  def initialize 
+  def initialize
+  end
+
+  def self.reset_all 
   end 
-end 
+end
