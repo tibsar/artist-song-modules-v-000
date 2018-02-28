@@ -5,7 +5,7 @@ class Artist
   end
 
   def to_param
-    @name
+    @name.downcase.gsub(" ", "-")
   end
 
   def self.reset_all
