@@ -6,7 +6,7 @@ class Artist
 
   def initialize
     @@all << self
-    @songs = [] 
+    @songs = []
   end
 
   def to_param
@@ -32,4 +32,7 @@ class Artist
   def add_song(song)
     @songs << song
   end
+
+  def add_songs(songs)
+  end 
 end
