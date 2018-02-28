@@ -1,6 +1,6 @@
 class Song
   extend Memorable
-
+  extend Findable
   attr_accessor :name, :artist
 
   @@all = []
@@ -17,11 +17,4 @@ class Song
     @@all
   end
 
-  def self.count
-    @@all.length
-  end
-
-  def self.find_by_name(name)
-    @@all.find{ |item| item.name == name }
-  end
 end
