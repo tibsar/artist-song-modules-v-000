@@ -3,7 +3,7 @@ require 'pry'
 module Memorable
   def reset_all
     binding.pry
-    all = []
+    self.all = []
   end
 
   def count
