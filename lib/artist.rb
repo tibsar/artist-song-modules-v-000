@@ -1,5 +1,6 @@
 class Artist
   attr_accessor :name
+  attr_reader :songs 
 
   @@all = []
 
@@ -28,5 +29,5 @@ class Artist
   end
 
   def add_song(song)
-  end 
+  end
 end
