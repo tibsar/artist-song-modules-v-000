@@ -10,4 +10,7 @@ class Artist
 
   def self.reset_all
   end
+
+  def self.all 
+  end 
 end
