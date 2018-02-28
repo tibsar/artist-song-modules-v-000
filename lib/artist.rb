@@ -10,7 +10,7 @@ class Artist
   @@all = []
 
   def initialize
-    @@all << self
+    self.class.all
     @songs = []
   end
 
