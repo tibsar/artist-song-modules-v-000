@@ -14,6 +14,8 @@ class Artist
   end
 
   def self.reset_all
+    @@all = [] 
+    @@count = 0 
   end
 
   def self.all
@@ -21,6 +23,6 @@ class Artist
   end
 
   def self.count
-    @@count 
+    @@count
   end
 end
