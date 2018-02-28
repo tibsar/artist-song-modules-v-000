@@ -3,7 +3,7 @@ module Memorable
     all = []
   end
 
-  def self.count
-    @@all.length
+  def count
+    all.length
   end
 end
