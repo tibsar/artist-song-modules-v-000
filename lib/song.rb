@@ -1,5 +1,5 @@
 class Song
-  attr_accessor :name
+  attr_accessor :name, :artist
 
   @@all = []
 
@@ -26,4 +26,4 @@ class Song
   def self.find_by_name(name)
     @@all.find{ |item| item.name == name }
   end
-end 
+end
