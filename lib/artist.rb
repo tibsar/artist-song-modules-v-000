@@ -1,5 +1,5 @@
 class Artist
-  
+
   extend Findable
   extend Memorable
 
