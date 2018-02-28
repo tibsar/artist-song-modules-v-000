@@ -12,7 +12,7 @@ class Artist
   end
 
   def self.reset_all
-    @@all = [] 
+    @@all = []
   end
 
   def self.all
@@ -20,6 +20,9 @@ class Artist
   end
 
   def self.count
-    @@all.length 
+    @@all.length
   end
+
+  def self.find_by_name(name)
+  end 
 end
