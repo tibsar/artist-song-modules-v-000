@@ -1,6 +1,6 @@
 class Song
   extend Memorable
-  
+
   attr_accessor :name, :artist
 
   @@all = []
