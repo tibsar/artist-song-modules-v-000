@@ -2,7 +2,8 @@ class Artist
 
   extend Findable
   extend Memorable
-
+  include Paramable::
+  
   attr_accessor :name
   attr_reader :songs
 
@@ -11,10 +12,6 @@ class Artist
   def initialize
     @@all << self
     @songs = []
-  end
-
-  def to_param
-    @name.downcase.gsub(" ", "-")
   end
 
   def self.all
