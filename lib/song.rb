@@ -3,7 +3,7 @@ class Song
   extend Findable
 
   include Paramable::InstanceMethods
-  
+
   attr_accessor :name, :artist
 
   @@all = []
