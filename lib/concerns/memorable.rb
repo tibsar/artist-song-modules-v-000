@@ -1,5 +1,5 @@
 module Memorable
   def reset_all
-    @@all = []
+    all = []
   end
 end
