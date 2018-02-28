@@ -5,6 +5,7 @@ module Memorable
   end
 
   def count
+    binding.pry
     self.all.length
   end
 end
