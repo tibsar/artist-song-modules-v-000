@@ -2,6 +2,7 @@ class Artist
   attr_accessor :name
 
   @@all = []
+  @@count = 0 
 
   def initialize
     @@all << self
@@ -18,6 +19,6 @@ class Artist
     @@all
   end
 
-  def self.count 
-  end 
+  def self.count
+  end
 end
