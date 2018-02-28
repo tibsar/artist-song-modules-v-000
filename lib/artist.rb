@@ -6,7 +6,7 @@ class Artist
 
   def initialize
     @@all << self
-    @@count += 1 
+    @@count += 1
   end
 
   def to_param
@@ -21,5 +21,6 @@ class Artist
   end
 
   def self.count
+    @@count 
   end
 end
